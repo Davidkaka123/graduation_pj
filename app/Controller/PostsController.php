@@ -5,6 +5,14 @@
  * Date: 2016/8/13
  * Time: 13:50
  */
+
+/**
+ * 控制器通常用：
+ * set()创建上下文
+ * view()来渲染视图
+ * 返回一个CakeResponse对象，包含创建的完整响应
+ *
+ */
 class PostsController extends AppController {
     public $helpers = array('Html', 'Form', 'Flash');
     public $components = array('Flash');
